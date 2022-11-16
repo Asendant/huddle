@@ -26,7 +26,6 @@
 }
 
 .benefitsText {
-    width: 25%;
     height: 100%;
     
     display: flex;
@@ -37,4 +36,10 @@
 
 #benefits > div > div > div> img {
     width: 27rem;
+}
+
+@media only screen and (min-width: 900px) {
+    .benefitsText {
+        width: 25%;
+    }
 }
