@@ -1,0 +1,40 @@
+#benefits {
+    position: relative;
+
+    background: rgb(243, 243, 243);
+}
+
+#benefits > div { /* Benefits > overallContainer > container > left/right */
+    height: 100vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#benefits > div > div {
+    width: 90%;
+    height: 70%;
+
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background: white;
+}
+
+.benefitsText {
+    width: 25%;
+    height: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#benefits > div > div > div> img {
+    width: 27rem;
+}

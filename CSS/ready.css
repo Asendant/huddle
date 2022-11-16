@@ -1,0 +1,44 @@
+#readyContainer {
+    position: absolute;
+    width: 44.44rem;
+    height: 16.66rem;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    left: 50%;
+    top: 393vh;
+    margin-left: -22.22rem;
+
+    z-index: 5;
+
+    background: white;
+}
+
+#readyButton {
+    background: var(--pink);
+    border: none;
+    border-radius: 40px;
+    width: 15rem;
+    height: 3.1rem;
+
+    color: white;
+    font-size: 1rem;
+
+    box-shadow: 0px 0px 10px var(--pink);
+
+    transition: 200ms all;
+}
+
+#readyButton:hover {
+    background: var(--pink);
+
+    box-shadow: 0px 0px 20px var(--pink);
+
+    font-size: 1.02rem;
+}

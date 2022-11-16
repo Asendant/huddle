@@ -1,0 +1,204 @@
+@media only screen and (max-width: 1300px) {
+    #header article {
+        top: 11vh;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #headerRightImage img {
+        margin-top: 3rem;
+        width: 20rem;
+    }
+
+    #benefits > div > div > div > img {
+        width: 19rem;
+    }
+
+    #readyContainer {
+        width: 30rem;
+        height: 12rem;
+        margin-left: -15rem;
+        margin-top: 3.5rem;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    #benefits > div > div {
+        height: 40rem;
+    }
+
+    .column {
+        flex-direction: column;
+    }
+
+    .reverseColumn {
+        flex-direction: column-reverse;
+    }
+
+    #benefits > div > div > div > img {
+        margin-bottom: 5rem;
+    }
+
+    .benefitsText {
+        text-align: center;
+        width: 80%;
+    }
+
+    footer { 
+        height: 100vh;
+    }
+
+    #footerTextContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #footerTextTop {
+        align-items: flex-start;
+        margin-left: 20px;
+    }
+
+    #footerTextTop {
+        flex-direction: column;
+    }
+
+    #footerMidRight ul {
+        margin-left: -16px;
+        margin-bottom: 0.5rem
+    }
+
+    #footerMidLeft ul {
+        margin-left: -16px;
+        margin-top: 0.5rem;
+    }
+
+    #footerRight i {
+        margin-top: 1rem;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    #header nav img {
+        width: 10rem;
+    }
+
+    #headerRightImage img {
+        width: 15rem;
+    }
+    #tryButton {
+        width: 4.3rem;
+        height: 1.4rem;
+        font-size: 0.7rem;
+    }
+
+    #header {
+        height: 120vh;
+    }
+
+    #headerLeftText {
+        width: 20rem;
+    }
+
+    #benefits > div > div {
+        margin-top: 5rem;
+    }
+
+    #benefits > div > div > div > img {
+        width: 15rem;
+    }
+
+    #readyContainer {
+        top: 418vh;
+
+        width: 20rem;
+        height: 10rem;
+
+        margin-left: -10rem;
+    }
+
+    #readyContainer h1 {
+        font-size: 1rem;
+    }
+
+    #readyButton {
+        width: 7.3rem;
+        height: 1.6rem;
+        font-size: 0.7rem;
+    }
+
+    #copyrightText {
+        font-size: 0.7rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #header nav img {
+        width: 6rem;
+    }
+
+    #headerLeftText {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #headerLeftText h1 {
+        font-size: 1.5rem;
+    }
+
+    #headerLeftText p {
+        width: 15rem;
+        font-size: 0.7rem;
+    }
+
+    #headerButton {
+        width: 9.3rem;
+        height: 2.1rem;
+        font-size: 0.7rem;
+    }
+
+    #footerTextBottom i {
+        font-size: 0.5rem;
+    }
+
+    #copyrightText {
+        font-size: 0.5rem;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #header {
+        height: 90vh;
+    }
+
+    #readyContainer {
+        top: 420vh;
+
+        width: 15rem;
+        height: 6rem;
+
+        margin-left: -7.5rem;
+    }
+
+    #headerLeftText h1 {
+        font-size: 1.2rem;
+        width: 15rem;
+    }
+
+    #readyContainer {
+        top: 390vh;
+
+        width: 15rem;
+        height: 6rem;
+
+        margin-left: -7.5rem;
+    }
+
+    #footerTextBottom i {
+        font-size: 0.4rem;
+    }
+    
+    #copyrightText {
+        font-size: 0.4rem;
+    }
+}

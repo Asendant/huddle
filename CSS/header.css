@@ -1,0 +1,88 @@
+#header {
+    display: flex;
+    flex-direction: column;
+
+    background-image: url("../images/bg-hero-desktop.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: var(--veryPaleCyan);
+    height: 100vh;
+
+    position: relative;
+}
+
+#header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1rem;
+}
+
+#tryButton {
+    background: white;
+    border: none;
+    border-radius: 40px;
+    width: 8.3rem;
+    height: 2.5rem;
+
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+
+    font-family: Poppins;
+    font-size: 0.9rem;
+    font-weight: bold;
+
+    transition: 200ms all;
+}
+
+#tryButton:hover {
+    background: white;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+    font-size: 0.92rem;
+}
+
+#header article {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1rem;
+
+    position: relative;
+    top: 20vh;
+}
+
+#headerLeftText {
+    width: 500px;
+}
+
+#headerLeftText p {
+    margin: 20px 0px;
+}
+
+
+#headerRightImage img {
+    min-width: 13rem;
+    max-width: 35rem;
+}
+
+#headerButton {
+    background: var(--pink);
+    color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+
+    border: none;
+    border-radius: 40px;
+    width: 17rem;
+    height: 2.8rem;
+
+    margin-top: 20px;
+
+    font-family: Poppins;
+
+    transition: 200ms all;
+}
+
+#headerButton:hover {
+    background: var(--pink);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    font-size: 1.02rem;
+}
